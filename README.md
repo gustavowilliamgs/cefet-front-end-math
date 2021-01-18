@@ -75,8 +75,8 @@ Além dos valores do discriminante (Δ) e das raízes, **escreva no resultado ta
 
 [input]: https://fegemo.github.io/cefet-front-end/classes/js1/#campo-de-entrada-numerica
 [button]: https://fegemo.github.io/cefet-front-end/classes/js1/#botoes-de-acao
-[incluindo-js]: https://fegemo.github.io/cefet-front-end/classes/js1/#incluindo-js
+[incluindo-js]: https://fegemo.github.io/cefet-front-end/classes/js1/#inserindo-javascript-na-pagina
 [recuperar-elemento-dom]: https://fegemo.github.io/cefet-front-end/classes/js1/#recuperando-elemento-dom
 [valor-do-input]: https://fegemo.github.io/cefet-front-end/classes/js1/#valor-do-input
-[operadores]: https://fegemo.github.io/cefet-front-end/classes/js1/#operadores
-[funcoes-matematicas]: https://fegemo.github.io/cefet-front-end/classes/js1/#funcoes-matematicas
+[operadores]: https://fegemo.github.io/cefet-front-end/classes/js0/#operadores
+[funcoes-matematicas]: https://fegemo.github.io/cefet-front-end/classes/js0/#o-objeto-math
