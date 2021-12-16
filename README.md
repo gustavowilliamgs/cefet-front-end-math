@@ -23,6 +23,22 @@ Agora, crie um arquivo JavaScript vazio e o inclua no arquivo HTML, logo antes d
 fechamento do `body`. Veja os slides sobre 
 [como incluir um arquivo JavaScript][incluindo-js].
 
+Escolha um bom nome para o arquivo que vai criar. 
+Um bom nome de arquivo JavaScript deve
+**indicar o que o código faz** e não pode
+usar caracteres especiais (acentos, cedilha etc.).
+Também é recomendado usar apenas letras minúsculas.
+Exemplos:
+
+- `matematica.js` ✅
+- `math.js` ✅
+- `equacao.js` ✅
+- `resolve-equacao.js` ✅
+- `javascript.js` ❌ (nome genérico)
+- `script.js` ❌ (nome genérico)
+- `Matematica.js` ❌ (usou maiúscula)
+- `matemática.js` ❌ (usou acento)
+
 
 ### Exercício 2: clique no botão
 
@@ -57,15 +73,18 @@ escreva código JavaScript para:
    encontrado para o discriminante
 
 Se você tiver criado uma função com nome (em vez de anônima), 
-escolha um bom nome para ela. Exemplos:
+escolha um bom nome para ela. O nome de uma função
+deve sempre **indicar uma ação**. E deve seguir a 
+notação camelo 🐪. Exemplos:
 
 - `function calcula()` ✅
 - `function calcular()` ✅
 - `function calculaDelta()` ✅
-- `function aaa()` ❌
-- `function calc()` ❌
-- `function CALCULA()` ❌
-- `function Calcula()` ❌
+- `function delta()` ❌ (não indica uma ação)
+- `function aaa()` ❌ (não faz sentido)
+- `function calc()` ❌ (abreviou sem precisar)
+- `function CALCULA()` ❌ (não usou notação 🐪)
+- `function Calcula()` ❌ (não usou notação 🐪)
 
 
 ### Exercício 4: cálculo das raízes
