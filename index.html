@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap">
     <link rel="stylesheet" href="estilos.css">
     <link rel="shortcut icon" href="imgs/icone-funcao.png">
+    <script src="math.js" defer></script>
   </head>
   <body>
     <header>
@@ -32,9 +33,9 @@
         <label for="coeficiente-b" class="matematica">b: </label>
         <input id="coeficiente-b" type="number" value="1">
         <!-- colocar o coeficiente c e o button aqui -->
-
-
-
+        <label for="coeficiente-c" class="matematica">c: </label>
+        <input id="coeficiente-c" type="number" value="1">
+        <button id="btn-resolver">Resolver!</button>
       </section>
       <section id="resultado">
         O resultado é:
@@ -50,6 +51,15 @@
           <li>
             <span class="matematica">x<sub>2</sub></span>: <input id="resultado-x2" type="number" disabled>
             <span class="matematica">x<sub>2</sub> = (-b - √Δ)/2a</span>
+          </li>
+          <li>
+            <span class="matematica">número de raízes</span>: <input id="resultado-numero-de-raizes" type="number" disabled>
+          </li>
+          <li>
+            <span class="matematica">parábola virada para</span>: <input id="resultado-virada-para" type="text" disabled>
+          </li>
+          <li>
+            <span class="matematica">(x,y) do vértice</span>: <input id="resultado-vertice" type="text" disabled>
           </li>
         </ul>
       </section>
